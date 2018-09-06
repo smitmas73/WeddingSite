@@ -1,0 +1,53 @@
+/* Start styling by ID */
+
+#header {
+    color: #000000;
+}
+
+#dateOfEvent {
+    color: #000000;
+    text-decoration: underline;
+}
+
+#chooseFileText {
+    margin-left: 15px;
+}
+
+#chooseFileButton {
+    margin-left: 5px;
+}
+
+/* End styling by ID */
+
+/* Start styling by class */
+
+.dialogFromCouple {
+    font-family: "Book Antiqua";
+    color: #000000;
+}
+
+.mainHeader {
+    font-family: "Baskerville Old Face";
+    color: #000000;
+}
+
+.btn {
+    background-color: #E0F2F2;
+    color: #000000;
+    box-shadow: #7FFFD4;
+}
+
+.btn:hover {
+    background-color: #5F9EA0;
+    color: #000000;
+    box-shadow: none;
+    cursor: pointer;
+}
+
+.btn:focus {
+    background-color: #E0F2F2;
+    color: #000000;
+    box-shadow: #7FFFD4;
+}
+
+/* End styling by class */
