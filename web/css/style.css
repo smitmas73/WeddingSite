@@ -1,12 +1,85 @@
+/* Start styling by class */
+
+a {
+    color: #0000FF;
+    text-decoration: none;
+}
+
+a:visited {
+    color: #555555;
+    text-decoration: none;
+}
+
+a:hover {
+    color: #00008B;
+    text-decoration: underline;
+}
+
+.dialogFromCouple {
+    font-family: "Book Antiqua";
+    color: #000000;
+}
+
+.header {
+    font-family: "Baskerville Old Face";
+    color: #000000;
+}
+
+.slideShow {
+    width: 100%;
+}
+
+button.btn {
+    background-color: #E0F2F2;
+    color: #000000;
+    box-shadow: none;
+    border: #5F9EA0 1px solid;
+}
+
+button.btn:hover {
+    background-color: #5F9EA0;
+    color: #FFFFFF;
+    border: #E0F2F2 1px solid;
+    box-shadow: #7FFFD4;
+    cursor: pointer;
+}
+
+button.btn:focus {
+    background-color: #E0F2F2;
+    color: #000000;
+    box-shadow: #7FFFD4;
+    border: #5F9EA0 1px solid;
+}
+
+/* End styling by class */
+
 /* Start styling by ID */
 
 #header {
-    color: #000000;
+    background: url(../images/rose-assortment.png) no-repeat center center;
+    background-size: cover;
+    position: relative;
+    min-height: 250px;
+    margin-left: 0;
+    margin-top: 0;
+}
+
+#mainHeader {
+    font-size: 60px;
+    font-weight: bold;
+    color: #FFFFFF;
+    position: absolute;
+    bottom: 0;
+    left: 15px;
 }
 
 #dateOfEvent {
     color: #000000;
     text-decoration: underline;
+}
+
+#imageSlider {
+    max-width: 1200px;
 }
 
 #chooseFileText {
@@ -18,36 +91,3 @@
 }
 
 /* End styling by ID */
-
-/* Start styling by class */
-
-.dialogFromCouple {
-    font-family: "Book Antiqua";
-    color: #000000;
-}
-
-.mainHeader {
-    font-family: "Baskerville Old Face";
-    color: #000000;
-}
-
-.btn {
-    background-color: #E0F2F2;
-    color: #000000;
-    box-shadow: #7FFFD4;
-}
-
-.btn:hover {
-    background-color: #5F9EA0;
-    color: #000000;
-    box-shadow: none;
-    cursor: pointer;
-}
-
-.btn:focus {
-    background-color: #E0F2F2;
-    color: #000000;
-    box-shadow: #7FFFD4;
-}
-
-/* End styling by class */
