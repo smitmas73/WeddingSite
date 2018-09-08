@@ -23,9 +23,9 @@
     </div>
 
     <div id="imageSlider">
-        <img class="sliderImage" src="images/blue-orchid.jpg">
-        <img class="sliderImage" src="images/dog.jpg">
-        <img class="sliderImage" src="images/images.jpg">
+        <img class="sliderImage" src="images/1.jpg">
+        <img class="sliderImage" src="images/2.jpg">
+        <img class="sliderImage" src="images/3.jpg">
     </div>
 
   </div>

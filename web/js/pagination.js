@@ -2,15 +2,15 @@ var currentPage = 1;
 var recordsPerPage = 1;
 
 var imgSources = [
-    { source: "src=\"images/blue-orchid.jpg\"" },
-    { source: "src=\"images/dog.jpg\"" },
-    { source: "src=\"images/images.jpg\"" },
-    { source: "src=\"images/nickcagememe.jpg\"" },
+    { source: "src=\"images/1.jpg\"" },
+    { source: "src=\"images/2.jpg\"" },
+    { source: "src=\"images/3.jpg\"" },
+    { source: "src=\"images/4.jpg\"" },
     { source: "src=\"images/rose-assortment.png\"" },
-    { source: "src=\"images/simplyweddingmeme.png\"" },
-    { source: "src=\"images/starkmeme.jpg\"" },
-    { source: "src=\"images/wedding-header.png\"" },
-    { source: "src=\"images/weddingmeme.jpg\"" }
+    { source: "src=\"images/5.jpg\"" },
+    { source: "src=\"images/6.jpg\"" },
+    { source: "src=\"images/7.jpg\"" },
+    { source: "src=\"images/8.jpg\"" }
 ];
 
 function prevPage() {
