@@ -1,0 +1,26 @@
+/* Start styling by class */
+
+.sliderImage {
+    height: 280px;
+    margin: auto;
+}
+
+/* End styling by class */
+
+/* Start styling by ID */
+
+#imageSlider {
+    width: 60%;
+    height: 280px;
+    display: inline-block;
+    position: absolute;
+    right: 0;
+}
+
+#thankYouMessage {
+    display: inline-block;
+    position: absolute;
+    bottom: 0;
+}
+
+/* End styling by ID */
