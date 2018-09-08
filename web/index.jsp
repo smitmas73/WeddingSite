@@ -1,9 +1,10 @@
 <%@ page contentType="text/html;charset=UTF-8" language="java" %>
 <html>
   <head>
-    <title>Mason & Jordan Smith's Wedding Site</title>
+    <title>Mason & Jordan Smith's Wedding Site:Home</title>
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <link rel="stylesheet" type="text/css" href="css/style.css">
+    <link rel="stylesheet" type="text/css" href="css/indexstyle.css">
   </head>
 
   <body>
@@ -15,18 +16,21 @@
 
   <h3 id="dateOfEvent" class="header">July 6, 2019</h3>
 
-  <p id="thankYouMessage" class="dialogFromCouple">We, as a couple, would love to thank each and every one of you for
-    sharing our special day with us.</p>
-  <p id="uploadHereMessage" class="dialogFromCouple">Please feel free to upload any photos, gifs, videos, etc. that
-    you captured while attending our ceremony or reception to this website.</p>
+  <div class="container">
+    <div id="sideNav" class="verticalNavigation">
+        <a class="leftNavLink" href="#">Home</a>
+        <a class="leftNavLink" href="imageUpload.jsp">Images</a>
+    </div>
 
-  <div id="imageSlider">
+    <div id="imageSlider">
+        <img class="sliderImage" src="images/blue-orchid.jpg">
+        <img class="sliderImage" src="images/dog.jpg">
+        <img class="sliderImage" src="images/images.jpg">
+    </div>
+    <p id="thankYouMessage" class="dialogFromCouple">We, as a couple, would love to thank each and every one of you for
+       sharing our special day with us.</p>
   </div>
 
-  <span id="chooseFileText">Choose File:</span>
-  <button id="chooseFileButton" class="btn input">Choose File</button>
-
-  <p id="emailMessage" class="dialogFromCouple">Or you can email us by clicking
-    <span><a href="mailto:smitmas73@gmail.com">here</a>.</span></p>
+  <script src="js/imageSlider.js"></script>
   </body>
 </html>

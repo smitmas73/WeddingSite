@@ -1,0 +1,28 @@
+/* Start styling by class */
+
+.inContainer {
+    display: inline-block;
+    width: 80%;
+    height: fit-content;
+    position: absolute;
+    top: 0;
+    right: 15px;
+}
+
+/* End styling by class */
+
+/* Start styling by ID */
+
+#uploadHereMessage {
+
+}
+
+#chooseFileText {
+
+}
+
+#chooseFileButton {
+
+}
+
+/* End styling by ID */
