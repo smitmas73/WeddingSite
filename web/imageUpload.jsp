@@ -21,7 +21,7 @@
 
         <h3 id="dateOfEvent" class="header">July 6, 2019</h3>
 
-        <div class="container">
+        <div id="imageUploadTopContent" class="container">
             <div id="sideNav" class="verticalNavigation">
                 <a class="leftNavLink" href="index.jsp">Home</a>
                 <a class="leftNavLink" href="#">Images</a>
@@ -38,5 +38,14 @@
                     <span><a href="mailto:smitmas73@gmail.com">here</a>.</span></p>
             </div>
         </div>
+        <div id="imageUploadImageContent" class="container">
+            <h3 id="imageTitle">Uploaded Images</h3>
+        </div>
+
+        <a href="javascript:prevPage()" class="paginationNav" id="prevButton">Prev</a>
+        <a href="javascript:nextPage()" class="paginationNav" id="nextButton">Next</a>
+
+        <span id="pageLabel"></span>
     </body>
+    <script src="js/pagination.js"></script>
 </html>

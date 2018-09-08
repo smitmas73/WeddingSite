@@ -9,20 +9,49 @@
     right: 15px;
 }
 
+.weddingImage {
+    max-height: 280px;
+    position: relative;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.paginationNav {
+    font-size: 18px;
+}
+
 /* End styling by class */
 
 /* Start styling by ID */
 
-#uploadHereMessage {
-
+#imageUploadTopContent {
+    height: 150px;
 }
 
-#chooseFileText {
-
+#imageUploadImageContent {
+    height: 500px;
+    width: 100%;
+    background: #AAAAAA;
+    border-radius: 24px;
 }
 
-#chooseFileButton {
+#imageTitle {
+    font-family: "Baskerville Old Face";
+    font-weight: lighter;
+    font-size: 36px;
+    position: absolute;
+    top: 20px;
+    left: 50%;
+    transform: translate(-50%, 0);
+}
 
+#paginationPageLabel {
+    font-size: 18px;
+}
+
+#pageLabel {
+    font-size: 18px;
 }
 
 /* End styling by ID */
