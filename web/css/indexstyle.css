@@ -1,8 +1,17 @@
 /* Start styling by class */
 
 .sliderImage {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
     height: 280px;
     margin: auto;
+}
+
+.textContainer {
+    width: 100%;
+    height: fit-content;
 }
 
 /* End styling by class */
@@ -10,17 +19,23 @@
 /* Start styling by ID */
 
 #imageSlider {
+    background: #AAAAAA;
+    border-radius: 24px;
     width: 60%;
-    height: 280px;
+    height: 340px;
     display: inline-block;
     position: absolute;
     right: 0;
+    transform: translate(-25%, 0);
 }
 
 #thankYouMessage {
     display: inline-block;
-    position: absolute;
-    bottom: 0;
+}
+
+#signature {
+    padding-left: 20px;
+    display: inline-block;
 }
 
 /* End styling by ID */

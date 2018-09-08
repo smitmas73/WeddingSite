@@ -27,8 +27,12 @@
         <img class="sliderImage" src="images/dog.jpg">
         <img class="sliderImage" src="images/images.jpg">
     </div>
-    <p id="thankYouMessage" class="dialogFromCouple">We, as a couple, would love to thank each and every one of you for
-       sharing our special day with us.</p>
+
+  </div>
+  <div class="textContainer">
+      <p id="thankYouMessage" class="dialogFromCouple">We, as a couple, would love to thank each and every one of you for
+         sharing our special day with us.</p><br>
+      <p id="signature" class="dialogFromCouple">- Mason and Jordan Smith</p>
   </div>
 
   <script src="js/imageSlider.js"></script>

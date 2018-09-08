@@ -21,25 +21,27 @@ a:hover {
 }
 
 button.btn {
-    background-color: #E0F2F2;
+    border-radius: 8px;
+    font-size: 18px;
+    background-color: #7FFFD4;
     color: #000000;
-    box-shadow: none;
-    border: #5F9EA0 1px solid;
+    border: #7FFFD4 3px solid;
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);;
 }
 
 button.btn:hover {
-    background-color: #5F9EA0;
-    color: #FFFFFF;
-    border: #E0F2F2 1px solid;
-    box-shadow: #7FFFD4;
+    background-color: #6CD9b4;
+    color: #000000;
+    border: #6CD9B4 3px solid;
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);;
     cursor: pointer;
 }
 
 button.btn:focus {
-    background-color: #E0F2F2;
+    background-color: #7FFFD4;
     color: #000000;
-    box-shadow: #7FFFD4;
-    border: #5F9EA0 1px solid;
+    border: #7FFFD4 3px solid;
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);;
 }
 
 .leftNavLink {
@@ -107,6 +109,7 @@ button.btn:focus {
 }
 
 #dateOfEvent {
+    font-size: 24px;
     color: #000000;
     font-weight: lighter;
     text-decoration: underline;
