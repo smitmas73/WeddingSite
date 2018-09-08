@@ -1,5 +1,10 @@
 /* Start styling by class */
 
+.header {
+    font-family: "Baskerville Old Face";
+    color: #000000;
+}
+
 a {
     color: #0000FF;
     text-decoration: none;
@@ -15,40 +20,70 @@ a:hover {
     text-decoration: underline;
 }
 
+button.btn {
+    border-radius: 8px;
+    font-size: 18px;
+    background-color: #7FFFD4;
+    color: #000000;
+    border: #7FFFD4 3px solid;
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);;
+}
+
+button.btn:hover {
+    background-color: #6CD9b4;
+    color: #000000;
+    border: #6CD9B4 3px solid;
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);;
+    cursor: pointer;
+}
+
+button.btn:focus {
+    background-color: #7FFFD4;
+    color: #000000;
+    border: #7FFFD4 3px solid;
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);;
+}
+
+.leftNavLink {
+    background: #444444;
+    color: #FFFFFF;
+    text-decoration: none;
+    text-shadow: #000000;
+    display: block;
+    padding: 15px;
+}
+
+.leftNavLink:visited {
+    color: #FFFFFF;
+}
+
+.leftNavLink:hover {
+    background: #7FFFD4;
+    color: #000000;
+    text-decoration: none;
+    text-shadow: none;
+}
+
+.leftNavLink:active {
+    color: #444444;
+}
+
+.verticalNavigation {
+    width: 250px;
+    display: inline-block;
+    position: absolute;
+    left: 0;
+}
+
 .dialogFromCouple {
     font-family: "Book Antiqua";
     color: #000000;
 }
 
-.header {
-    font-family: "Baskerville Old Face";
-    color: #000000;
-}
-
-.slideShow {
+.container {
+    position: relative;
     width: 100%;
-}
-
-button.btn {
-    background-color: #E0F2F2;
-    color: #000000;
-    box-shadow: none;
-    border: #5F9EA0 1px solid;
-}
-
-button.btn:hover {
-    background-color: #5F9EA0;
-    color: #FFFFFF;
-    border: #E0F2F2 1px solid;
-    box-shadow: #7FFFD4;
-    cursor: pointer;
-}
-
-button.btn:focus {
-    background-color: #E0F2F2;
-    color: #000000;
-    box-shadow: #7FFFD4;
-    border: #5F9EA0 1px solid;
+    height: 350px;
 }
 
 /* End styling by class */
@@ -74,20 +109,10 @@ button.btn:focus {
 }
 
 #dateOfEvent {
+    font-size: 24px;
     color: #000000;
+    font-weight: lighter;
     text-decoration: underline;
-}
-
-#imageSlider {
-    max-width: 1200px;
-}
-
-#chooseFileText {
-    margin-left: 15px;
-}
-
-#chooseFileButton {
-    margin-left: 5px;
 }
 
 /* End styling by ID */
