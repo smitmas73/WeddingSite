@@ -1,10 +1,3 @@
-<%--
-  Created by IntelliJ IDEA.
-  User: warri
-  Date: 9/7/2018
-  Time: 5:18 PM
-  To change this template use File | Settings | File Templates.
---%>
 <%@ page contentType="text/html;charset=UTF-8" language="java" %>
 <html>
     <head>
@@ -47,5 +40,6 @@
 
         <span id="pageLabel"></span>
     </body>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
     <script src="js/pagination.js"></script>
 </html>

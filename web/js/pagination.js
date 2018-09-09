@@ -1,17 +1,12 @@
 var currentPage = 1;
 var recordsPerPage = 1;
+var jsonSource = "resources/imgSources.json";
 
-var imgSources = [
-    { source: "src=\"images/1.jpg\"" },
-    { source: "src=\"images/2.jpg\"" },
-    { source: "src=\"images/3.jpg\"" },
-    { source: "src=\"images/4.jpg\"" },
-    { source: "src=\"images/rose-assortment.png\"" },
-    { source: "src=\"images/5.jpg\"" },
-    { source: "src=\"images/6.jpg\"" },
-    { source: "src=\"images/7.jpg\"" },
-    { source: "src=\"images/8.jpg\"" }
-];
+var imgSources = [];
+
+$.getJSON(jsonSource, function(data) {
+    imgSources = data;
+});
 
 function prevPage() {
     if (currentPage > 1) {
@@ -43,7 +38,7 @@ function changePage(page) {
     imageContent.innerHTML = "<h3 id=\"imageTitle\">Uploaded Images</h3>";
 
     for (var i = (page - 1) * recordsPerPage; i < (page * recordsPerPage) && i < imgSources.length; i++) {
-        imageContent.innerHTML += "<img class=\"weddingImage\" " + imgSources[i].source + "><br>";
+        imageContent.innerHTML += "<img class=\"weddingImage\" src=\"" + imgSources[i].source + "\"><br>";
     }
 
     pageSpan.innerHTML = "Page: " + page + "/" + numPages();
@@ -65,6 +60,6 @@ function numPages() {
     return Math.ceil(imgSources.length / recordsPerPage);
 }
 
-window.onload = function() {
+$(document).ready(function() {
     changePage(1);
-};
+});
