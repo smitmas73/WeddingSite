@@ -26,9 +26,7 @@
 
                 <span id="chooseFileText">Choose File:</span>
                 <button id="chooseFileButton" class="btn input">Choose File</button>
-
-                <p id="emailMessage" class="dialogFromCouple">Or you can email us by clicking
-                    <span><a href="mailto:smitmas73@gmail.com">here</a>.</span></p>
+                <br>
             </div>
         </div>
         <div id="imageUploadImageContent" class="container">

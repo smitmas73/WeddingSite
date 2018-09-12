@@ -12,11 +12,9 @@ $.getJSON(jsonSource, function(data) {
 
 function getImages() {
     var imageSlider = document.getElementById("imageSlider");
-    imageSlider.innerHTML = "";
+    imageSlider.innerHTML = "<h4 id=\"thankYou\">Thank you for your Submissions!</h4>";
     for(var i = 0; i < 6; i++) {
         var rand = Math.floor(Math.random() * imgSources.length>>0);
-        console.log("RAND:");
-        console.log(rand);
         imageSlider.innerHTML += "<img class=\"sliderImage\" src=\"" + imgSources[rand].source + "\">";
     }
 }
