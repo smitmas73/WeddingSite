@@ -39,7 +39,26 @@
         <a href="javascript:nextPage()" class="paginationNav" id="nextButton">Next</a>
 
         <span id="pageLabel"></span>
+
+        <div id="footer">
+            <div id="footerMessageContainer">
+                <h3 id="messageFromCoupleLabel">From the couple</h3>
+                <hr>
+                <span id="message" class="dialogFromCouple">We would like to thank you for sharing this special
+                day with us.</span>
+            </div>
+            <div id="footerContactContainer">
+                <h3 id="contactLabel">Contact Us</h3>
+                <hr>
+                <div id="emailContainer">
+                    <p id="masonEmail">Mason: <a href="mailto:smitmas73@gmail.com">smitmas73@gmail.com</a></p>
+                    <p id="jordanEmail">Jordan: <a href="mailto:jordanj_320@hotmail.com">jordanj_320@hotmail.com</a></p>
+                    <p id="bothEmail">Both of us: <a href="mailto:smitmas73@gmail.com">smitmas73@gmail.com</a></p>
+                </div>
+            </div>
+        </div>
+
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+        <script src="js/pagination.js"></script>
     </body>
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
-    <script src="js/pagination.js"></script>
 </html>
