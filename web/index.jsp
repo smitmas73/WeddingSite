@@ -23,11 +23,6 @@
     </div>
 
     <div id="imageSlider">
-        <!--
-        <img class="sliderImage" src="images/1.jpg">
-        <img class="sliderImage" src="images/2.jpg">
-        <img class="sliderImage" src="images/3.jpg">
-        -->
     </div>
 
   </div>
