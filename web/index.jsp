@@ -29,10 +29,23 @@
     </div>
 
   </div>
-  <div class="textContainer">
-      <p id="thankYouMessage" class="dialogFromCouple">We, as a couple, would love to thank each and every one of you for
-         sharing our special day with us.</p><br>
-      <p id="signature" class="dialogFromCouple">- Mason and Jordan Smith</p>
+
+  <div id="footer">
+      <div id="footerMessageContainer">
+          <h3 id="messageFromCoupleLabel">From the couple</h3>
+          <hr>
+          <span id="message" class="dialogFromCouple">We would like to thank you for sharing this special
+                day with us.</span>
+      </div>
+      <div id="footerContactContainer">
+          <h3 id="contactLabel">Contact Us</h3>
+          <hr>
+          <div id="emailContainer">
+              <p id="masonEmail">Mason: <a href="mailto:smitmas73@gmail.com">smitmas73@gmail.com</a></p>
+              <p id="jordanEmail">Jordan: <a href="mailto:jordanj_320@hotmail.com">jordanj_320@hotmail.com</a></p>
+              <p id="bothEmail">Both of us: <a href="mailto:smitmas73@gmail.com">smitmas73@gmail.com</a></p>
+          </div>
+      </div>
   </div>
 
   <script src="js/imageSlider.js"></script>
