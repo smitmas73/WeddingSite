@@ -23,9 +23,11 @@
     </div>
 
     <div id="imageSlider">
+        <!--
         <img class="sliderImage" src="images/1.jpg">
         <img class="sliderImage" src="images/2.jpg">
         <img class="sliderImage" src="images/3.jpg">
+        -->
     </div>
 
   </div>
@@ -48,6 +50,7 @@
       </div>
   </div>
 
-  <script src="js/imageSlider.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="js/imageSlider.js"></script>
   </body>
 </html>
